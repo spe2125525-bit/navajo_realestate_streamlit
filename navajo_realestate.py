@@ -173,6 +173,7 @@ st.markdown(
     "Arizona. Use the year slider to explore monthly trends."
 )
 st.caption("Monthly Realtor.com county inventory data, July 2016–October 2026.")
+st.caption("Data from: https://www.realtor.com/research/data/")
 
 df = load_inventory_data()
 st.sidebar.header("Explore")
