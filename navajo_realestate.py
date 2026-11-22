@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 INVENTORY_CSV = Path(__file__).resolve().with_name(
-    "RDC_Inventory_Core_Metrics_County_History.csv"
+    "Navajo_County_Inventory.csv"
 )
 METRIC_COLUMNS = {
     "county_fips": "County_FIPS",
